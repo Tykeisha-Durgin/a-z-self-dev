@@ -1,0 +1,732 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+/***************************
+****Header
+****************************/
+header {
+    width: 100%;
+    background-color: #222f42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    top: 0;
+}
+
+header .logo {
+    width: 10%;
+    padding: 0px 100px;
+}
+
+header .center-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    padding: 0px 100px;
+}
+
+header .center-nav img {
+    width: 10%;
+}
+
+header .center-nav button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 0px 0px 0px 7px;
+}
+
+header .center-nav button input {
+    border: none;
+    font-size: 10px;
+    width: 50%;
+    padding: 0px 8px;
+}
+
+header .right-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+header .right-nav .number {
+    color: #ff6500;
+}
+header nav img {
+    width: 50%;
+}
+header nav .signin {
+    color: #fff;
+}
+/************************
+*****Media Screen
+**************************/
+@media screen and (max-width:450px) {
+    header .center-nav {
+        display: none;
+    }
+    header  {
+        justify-content: space-between;
+    }
+    header .logo {
+        padding: 0px 20px;
+    }
+    header .logo img {
+        width: 70px;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        align-items: center;
+    }
+    header nav img {
+        width: 60%;
+    }
+}
+@media screen and (max-width:850px) and (min-width:450px) {
+    header .center-nav {
+        display: none;
+    }
+     header  {
+        justify-content: space-between;
+    }
+    header .logo {
+        padding: 0px 20px;
+    }
+    header .logo img {
+        width: 70px;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        align-items: center;
+    }
+    header nav img {
+        width: 60%;
+    }
+}
+
+menu {
+    background-color: #293b51;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+menu .category {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+menu .category img {
+    width: 3%;
+    padding: 0px 10px;
+}
+
+menu .category p {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 88px;
+}
+
+menu .sub-menu {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 10px;
+}
+menu .sub-menu .menu-links {
+    border-right: 2px solid #fff;
+    padding: 0px 20px;
+}
+menu .sub-menu .links a {
+    text-decoration: none;
+    color: #fff;
+}
+menu .sub-menu .customer {
+    border-left: 2px solid #fff;
+}
+menu .sub-menu .customer a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+}
+menu .sub-menu .menu-links a {
+    padding: 0px 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+}
+/***************************
+****Media Screen
+****************************/
+@media screen and (max-width:450px) {
+    menu {
+        overflow: scroll;
+    }
+    menu .category {
+        width: 20%;
+    }
+    menu .category p {
+        padding: 0px 0px 0px 10px;
+    }
+    menu .category img {
+        width: 20%;
+    }
+    menu .sub-menu .menu-links{
+     padding: 0px 10px;
+    }
+    menu .sub-menu .menu-links a {
+        padding: 0;
+    }
+    menu .sub-menu .links {
+        padding: 0px 10px;
+    }
+    menu .sub-menu .customer {
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width:850px) and (min-width:450px) {
+     menu {
+        overflow: scroll;
+    }
+    menu .category {
+        width: 20%;
+    }
+    menu .category p {
+        padding: 0px 0px 0px 10px;
+    }
+    menu .category img {
+        width: 20%;
+    }
+    menu .sub-menu .menu-links{
+     padding: 0px 10px;
+    }
+    menu .sub-menu .menu-links a {
+        padding: 0;
+    }
+    menu .sub-menu .links {
+        padding: 0px 10px;
+    }
+    menu .sub-menu .customer {
+        padding: 0px 10px;
+    }
+    menu .sub-menu {
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+/*************************
+*****Section1
+**************************/
+.section-1 {
+  background-color: #edf2f3;
+  width: 100%;
+}
+
+.section-1 .recently-viewed {
+  text-align: center;
+  color: #444b4f;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.bg-img img {
+  width: 100%;
+}
+
+.section-1 .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.section-1 .item .item-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 .item .item-flex .item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 .item .item-flex .item-details .price {
+  color: orange;
+}
+/***************************
+****Media Screen
+****************************/
+@media screen and (max-width:450px) {
+    .section-1 {
+        overflow: scroll;
+    }
+    .section-1 .item img{
+      width: 160px;
+    }
+}
+@media screen and (max-width:850px) and (min-width:450px) {
+    .section-1 {
+        overflow: scroll;
+    }
+    .section-1 .item img {
+        width: 200px;
+    }
+}
+/***************************
+****Home
+****************************/
+.main-image img {
+    width: 100%;
+}
+.heading h2 {
+    padding: 10px 50px;
+}
+.item-container {
+    margin: 10px 100px;
+}
+.item-container .item-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.item-container .item-grid .item-background {
+    background-color: rgb(235, 235, 235, 70%);
+    width: 300px;
+    height: 400px;
+}
+.item-container .item-grid .item-background .item-image img {
+    padding: 55px 25px;
+    height: 291px;
+}
+.item-container .item-grid .item-bottom {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.item-container .item-grid .item-bottom button {
+    background-color: #59af0f;
+    color: #fff;
+    padding: 5px 5px;
+    border: 0;
+}
+.item-container .item-grid .item-bottom .added-cart {
+    background-color: #59af0f;
+    color: #fff;
+    padding: 5px 5px;
+    border: 0;
+    border-radius: 5px;
+}
+#minus {
+    padding: 0px 3px;
+}
+#plus {
+    padding: 0px 3px;
+}
+/***************************
+****Media Screen
+****************************/
+@media screen and (max-width: 450px) {
+    .item-container {
+        margin: 10px 30px;
+    }
+    .item-container .item-grid {
+        grid-template-columns: auto auto;
+    }
+    .item-container .item-grid .item .item-background {
+        width: 140px;
+        height: 200px;
+    }
+    .item-container .item-grid .item .item-background .item-image img {
+        height: 114px;
+    }
+    .item-container .item-grid .item .item-price h5,
+    p,
+    button {
+        font-size: 10px;
+    }
+    .item-container .item-grid .item-bottom {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 950px) and (min-width: 540px) {
+    .item-container {
+        margin: 10px 80px;
+    }
+    .item-container .item-grid {
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 540px) and (min-width: 450px) {
+    .item-container {
+        margin: 10px 70px;
+    }
+    .item-container .item-grid {
+        grid-template-columns: auto auto;
+    }
+    .item-container .item-grid .item .item-background {
+        width: 140px;
+        height: 200px;
+    }
+    .item-container .item-grid .item .item-background .item-image img {
+        height: 114px;
+    }
+    .item-container .item-grid .item .item-price h5,
+    p,
+    button {
+        font-size: 10px;
+    }
+    .item-container .item-grid .item-bottom {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .item-container {
+        margin: 20px 20px;
+    }
+    .item-container .item-grid .item .item-background {
+        width: 110px;
+        height: 165px;
+    }
+    .item-container .item-grid .item .item-background img {
+        height: 100px;
+        padding: 34px 24px;
+    }
+    .item-container .item-grid .item-bottom .added-cart {
+        font-size: 8px;
+    }
+}
+/******************************
+*******Footer
+*******************************/
+.foot {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 170px 30px 100px;
+    background-color: #fff;
+    padding: 10px 0px;
+    gap: 30px;
+}
+.foot button {
+    background-color: #59af0f;
+    padding: 10px 20px;
+    margin-right: 40px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+.refresh {
+    text-align: center;
+    color: #808080;
+    background-color: #222f42;
+}
+.refresh img {
+    width: 10%;
+}
+.refresh span {
+    font-weight: 400;
+    color: #000;
+}
+.copyright {
+    border-top: 1px solid #808080;
+    text-align: center;
+}
+.copyright p {
+    padding: 10px 0px;
+}
+/******************************
+*******Media screen
+*******************************/
+@media screen and (max-width: 450px) {
+    .refresh p {
+        font-size: 10px;
+    }
+    .refresh img {
+        width: 15%;
+    }
+    .foot {
+        margin: 0;
+        font-size: 10px;
+    }
+    .foot button {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 540px) and (min-width: 450px) {
+    .foot {
+        margin: 30px 100px 30px 40px;
+    }
+}
+/******************************
+*******Cart
+*******************************/
+.heading {
+    margin: 100px 70px;
+}
+.images {
+    margin: 100px 70px;
+}
+.images ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0px;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.circle img {
+    height: 80px;
+    padding: 15px 45px;
+}
+button.number {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+/******************************
+*******Media Screen
+*******************************/
+@media screen and (max-width: 450px) {
+    .images {
+        margin: 10px 10px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+    .circle img {
+        height: 60px;
+        padding: 15px 35px;
+    }
+    .heading {
+        margin: 20px 40px;
+    }
+}
+/******************************
+*******Check OUT
+*******************************/
+.box {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #ff8f00;
+}
+.box p {
+    padding: 100px 0px;
+    color: #fff;
+    font-weight: 500;
+}
+.details {
+    margin: 50px 150px;
+}
+.box2 {
+    margin: 50px 0px;
+}
+.box2 table {
+    width: 55%;
+    border-spacing: 10px;
+}
+.td-item {
+    width: 60%;
+}
+.td-price {
+    border: 1px solid #808080;
+    width: 5%;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+#total-price,
+#item-count,
+#subtotal {
+    border-top: 1px solid #000;
+    padding: 10px 0px;
+}
+.dispatch {
+    width: 100%;
+}
+.dispatch .form {
+    width: 60%;
+}
+.dispatch .form label {
+    font-weight: bolder;
+}
+.dispatch .form input {
+    width: 70%;
+    padding: 10px 20px;
+    border: 1px solid #808080;
+    border-radius: 25px;
+}
+.dispatch .form button {
+    padding: 10px 70px;
+    color: #fff;
+    background-color: #ff6c00;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+.message {
+    text-align: center;
+    margin: 50px 0px;
+}
+.backhome {
+    justify-content: center;
+    display: flex;
+}
+.backhome button {
+    padding: 10px 70px;
+    color: #fff;
+    background-color: #ff6c00;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+/******************************
+*******Media Screen
+*******************************/
+@media screen and (max-width: 450px) {
+    .box {
+        height: 150px;
+    }
+    .box p {
+        padding: 65px 0px;
+        font-size: 25px;
+    }
+    .details {
+        margin: 50px 20px;
+    }
+    .box2 table {
+        width: 100%;
+    }
+    .dispatch .form {
+        width: 100%;
+    }
+}
+/******************************
+*******Sign In
+*******************************/
+.gradient {
+    width: 100%;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 50%);
+    position: absolute;
+    top: 0;
+}
+.popup {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 25%;
+    background-color: #fff;
+}
+.popup .popup-inner {
+    margin: 5px 0px;
+}
+.popup .popup-inner img {
+    position: relative;
+    width: 20px;
+    padding: 0px 10px;
+    left: 90%;
+}
+.popup .popup-preview {
+    margin: 10px 30px;
+}
+.popup .popup-preview .input .heading-sign-in {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+.popup .popup-preview .input .input-feilds {
+    width: 90%;
+    margin: 0 auto;
+}
+.popup .popup-preview .input .input-feilds input {
+    width: 85%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #808080;
+}
+.popup .popup-preview .input .input-feilds button {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 100px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #ff6c00;
+    color: #fff;
+}
+.popup .popup-preview .input .input-feilds .bottom {
+    margin: 30px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+.popup .popup-preview .input .input-feilds .sign-up-bottom {
+    margin: 30px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+/*****************************
+*******Media Screen
+******************************/
+@media screen and (max-width: 450px) {
+    .popup {
+        left: 5%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:950px) and (min-width:450px) {
+    .popup {
+        left: 25%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .item-container .item-grid .item .item-background img {
+        padding: 34px 5px;
+    }
+    .item-container .item-grid .item .item-price h5, p, button {
+        font-size: 7px;
+    }
+}

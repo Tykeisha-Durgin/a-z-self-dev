@@ -1,0 +1,10 @@
+pgspecial>=1.10.0
+click>=4.1
+Pygments>=2.0
+prompt_toolkit<1.1.0,>=1.0.10
+psycopg2-binary>=2.7.4
+sqlparse<0.3.0,>=0.2.2
+configobj>=5.0.6
+humanize>=0.5.1
+cli_helpers[styles]>=1.0.1
+setproctitle>=1.1.9

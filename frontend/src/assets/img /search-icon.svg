@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="44" viewBox="0 0 56 44">
+  <g id="Group_401" data-name="Group 401" transform="translate(-985 -120)">
+    <path id="Rectangle_751" data-name="Rectangle 751" d="M0,0H51a5,5,0,0,1,5,5V39a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(985 120)" fill="#ff6500"/>
+    <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M14.793,12.968l-2.921-2.921a.7.7,0,0,0-.5-.205H10.9A6.09,6.09,0,1,0,9.843,10.9v.477a.7.7,0,0,0,.205.5l2.921,2.921a.7.7,0,0,0,.993,0l.829-.829a.706.706,0,0,0,0-1Zm-8.7-3.126a3.75,3.75,0,1,1,3.75-3.75A3.747,3.747,0,0,1,6.093,9.843Z" transform="translate(1006 135)" fill="#fff"/>
+  </g>
+</svg>
